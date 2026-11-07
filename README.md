@@ -1,17 +1,28 @@
-## GLOBAL TERRORISM CASE STUDY 
+# Global Terrorism: Exploratory Data Analysis
 
-#### TASK 4
+Exploratory analysis of global terrorism incident data to find hot zones and security insights. Completed as Task 4 of The Sparks Foundation (GRIP) internship.
 
-#### SPARK FOUNDATION
+## What it covers
 
-#### ANAND PRATAP
-#### Introduction to Global Terrorism An Analysis of Real World Data
+- Incidents by year, region, country and city
+- Most active groups and how their activity changed over time
+- Attack types and their success rates
+- Annual killings and casualties (`casualties` = killed + wounded)
+- A focus on attacks in India
 
-Terrorism has become a concern crossing borders and impacting countries across the globe. To effectively address this issue it is crucial to grasp the dynamics of global terrorism. In this case study we will embark on an exploration using real world data analysis to delve into the patterns and trends within the realm of terrorism.
+## Key findings
 
-Global terrorism presents a challenge for governments, security agencies and the international community at large. It encompasses a range of motivations, tactics and targets. This case study will utilize data driven approaches to uncover hidden insights that will contribute to an understanding of terrorism.
+- Incidents rose year on year to a peak in 2014, then declined
+- The Middle East and North Africa, and South Asia, show the largest rises; Central Asia is comparatively low
+- Bombings and explosions caused the most casualties
+- About 89% of attacks in the data were successful
 
-Through our analysis using real world data we will examine aspects such as the distribution of terrorist activities how these attacks have evolved over time identifying areas with higher incidents as well as examining their impact on societies and economies. By visualizing and analyzing information sources our goal is to shed light on the underlying factors driving terrorism.
+## Files
 
-This case study aims to provide an understanding of the landscape surrounding terrorism. By equipping policymakers researchers and the general public, with insights obtained through our analysis of real world data we hope to foster counter terrorism strategies that promote peace and security globally.
-The adventure starts by delving into the data as we navigate through the landscape of terrorism using data analysis and visualization techniques.
+| File | Purpose |
+| --- | --- |
+| `Global Terrorism case study_Anand Pratap.ipynb` | Full analysis |
+
+## Stack
+
+Python, pandas, matplotlib, seaborn
